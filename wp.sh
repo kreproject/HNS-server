@@ -60,7 +60,7 @@ echo """
 version: \"3\"
 services:
   ${DOMAIN}db:
-    image: mysql:8.0
+    image: mysql:5.7
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PASSWORD
